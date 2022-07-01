@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Hafta1Odev.Data.UrunModel
+
+
+<div>
+    @using (Html.BeginForm("UrunEkle", "UrunEkleme", FormMethod.Post))
+    {
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th colspan="2" align="center">Person Details</th>
+            </tr>
+@*            <tr>
+                <td>PersonId: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Id)
+                </td>
+            </tr>*@
+            <tr>
+                <td>Urün Adı: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.UrunAdi)
+                </td>
+            </tr>
+            <tr>
+                <td>Renk: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Renk)
+                </td>
+            </tr>
+            <tr>
+                <td>Fiyat: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Fiyat)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"/></td>
+            </tr>
+        </table>
+    }
+
+ </div>

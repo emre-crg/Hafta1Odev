@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{67872B96-F390-4A98-8A33-4C8DE251CB54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta1Odev.Data", "Hafta1Odev.Data\Hafta1Odev.Data.csproj", "{1BF90989-10A4-41E1-9FE4-1DA5E15B440A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta1Odev.Web", "Hafta1Odev.Web\Hafta1Odev.Web.csproj", "{78823654-0867-46B5-9F68-10B6C18BFBDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF90989-10A4-41E1-9FE4-1DA5E15B440A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF90989-10A4-41E1-9FE4-1DA5E15B440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF90989-10A4-41E1-9FE4-1DA5E15B440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF90989-10A4-41E1-9FE4-1DA5E15B440A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78823654-0867-46B5-9F68-10B6C18BFBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78823654-0867-46B5-9F68-10B6C18BFBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78823654-0867-46B5-9F68-10B6C18BFBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78823654-0867-46B5-9F68-10B6C18BFBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BF90989-10A4-41E1-9FE4-1DA5E15B440A} = {67872B96-F390-4A98-8A33-4C8DE251CB54}
+		{78823654-0867-46B5-9F68-10B6C18BFBDB} = {67872B96-F390-4A98-8A33-4C8DE251CB54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6554656-0B70-40C5-8C32-D2D39221500F}
+	EndGlobalSection
+EndGlobal

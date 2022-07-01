@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Hafta1Odev.Data.UrunModel>
+
+<div class="text-center">
+    <h1 class="display-6">Ürün Listele Ekranı</h1> <br /><br />
+    
+    <table style="width:100%">
+      <tr>
+        <th>Id</th>
+        <th>Ürün Adı</th>
+        <th>Renk</th>
+        <th>Fiyat</th>
+      </tr>
+     
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.UrunAdi</td>
+                <td>@item.Renk</td>
+                <td>@item.Fiyat</td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+
+
+<style>
+    table, th, td {
+  border:1px solid black;
+}
+</style>
